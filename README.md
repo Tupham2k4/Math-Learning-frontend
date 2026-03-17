@@ -1,5 +1,5 @@
 # 📐 Math Learning - Frontend
-
+Đây là đề tài khóa luận tốt nghiệp của sinh viên Phạm Quang Tú, với chủ đề xây dựng một hệ thống học tập dành cho học sinh yêu thích toán học từ lớp 1 đến 12
 Dự án Hệ thống Học Toán trực tuyến. Phần Frontend được xây dựng bằng **ReactJS**, mang đến trải nghiệm UI/UX tối ưu, hiện đại với tính tương tác cao dành cho học sinh, kết hợp các công cụ hỗ trợ Toán học và AI.
 
 ## 🌟 Chức năng nổi bật
