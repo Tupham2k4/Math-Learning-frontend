@@ -1,0 +1,164 @@
+.hero {
+  background-color: #cde8ce;
+  padding: 3rem 0;
+}
+
+.hero-container {
+  max-width: 1406px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-left-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #afd3b2;
+  border: 2px solid #4b8437;
+  color: #4b8437;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.hero-left-title img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.hero-left-title p {
+  margin: 0;
+  color: #4b8437;
+}
+
+.hero-left-description h1 {
+  margin: 0 0 1rem;
+  color: #34a853;
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+
+.hero-left-description p {
+  margin: 0;
+  color: #4b8437;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.hero-left-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  flex: 0 0 48%;
+  max-width: 63%;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+}
+
+.btn img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.start-btn {
+  color: #fff;
+  background-color: #5cb65f;
+  border-color: #5cb65f;
+}
+
+.start-btn:hover {
+  opacity: 0.95;
+}
+
+.video-btn {
+  color: #fff;
+  background-color: #208b8b;
+  border-color: #208b8b;
+}
+
+.video-btn:hover {
+  opacity: 0.95;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-right img {
+  width: 354px;
+  height: 354px;
+  object-fit: contain;
+}
+
+@media (max-width: 992px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-left {
+    align-items: center;
+  }
+
+  .hero-left-title {
+    justify-content: center;
+  }
+
+  .hero-left-actions {
+    justify-content: center;
+  }
+
+  .hero-right {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2.5rem 0;
+  }
+
+  .hero-left-description h1 {
+    font-size: 2rem;
+  }
+
+  .hero-left-description p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

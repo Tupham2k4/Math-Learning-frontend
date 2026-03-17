@@ -1,0 +1,51 @@
+{
+  "lesson": {
+    "id": "lop1_ch1_l3",
+    "title": "Bài 3: Các số 1, 2, 3",
+    "grade": 1,
+    "description": "Nhận biết, đọc, viết và đếm các số 1, 2, 3 thông qua đồ vật quen thuộc.",
+    "objectives": [
+      "Nhận biết các số 1, 2, 3 qua hình ảnh/đồ vật.",
+      "Đọc đúng và viết đúng các số 1, 2, 3.",
+      "Đếm số lượng trong phạm vi 3 và ghép số với số lượng tương ứng.",
+      "So sánh đơn giản: 1 < 2 < 3."
+    ],
+    "concept": {
+      "title": "Khái niệm",
+      "content": "Số 1, 2, 3 dùng để chỉ số lượng của một nhóm đồ vật. Ví dụ: 1 quả táo, 2 cái bút, 3 quyển vở. Khi đếm, mỗi đồ vật chỉ được đọc một số lần và số đọc cuối cùng cho biết có tất cả bao nhiêu đồ vật."
+    },
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "Có 1 đồ vật. Ta viết số 1.",
+        "imageAsset": "image"
+      },
+      {
+        "id": "ex2",
+        "text": "Có 2 đồ vật. Ta viết số 2.",
+        "imageAsset": "image"
+      },
+      {
+        "id": "ex3",
+        "text": "Có 3 đồ vật. Ta viết số 3.",
+        "imageAsset": "image"
+      }
+    ],
+    "quiz": {
+      "question": "Chọn đáp án đúng: Có 2 cái bút thì em chọn số nào?",
+      "options": ["1", "2", "3"],
+      "correctAnswer": "2"
+    },
+    "lessonOutline": [
+      { "id": "concept", "title": "Khái niệm" },
+      { "id": "examples", "title": "Ví dụ minh hoạ" },
+      { "id": "note", "title": "Ghi nhớ" },
+      { "id": "practice", "title": "Bài tập vận dụng" }
+    ],
+    "nextLessons": [
+      { "id": "lop1_ch1_l2", "title": "Bài 2: Hình vuông, hình tròn, hình tam giác, hình chữ nhật" },
+      { "id": "lop1_ch1_l4", "title": "Bài 4: Các số 4, 5, 6" }
+    ]
+  }
+}
+
